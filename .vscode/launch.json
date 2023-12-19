@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "yarab",
+            "type": "python",
+            "python": "D:\\Odoo v16 community\\odoo\\python\\python.exe",
+            "request": "launch",
+            "program": "d:\\Odoo v16 community\\odoo\\server\\odoo-bin",
+            "console": "integratedTerminal",
+            "args": ["--config=D:\\Odoo v16 community\\odoo\\server\\odoo.conf ",
+                     "--database", "digizilla",
+                     "--update", "Digizilla"
+                    ]
+        }
+    ]
+}

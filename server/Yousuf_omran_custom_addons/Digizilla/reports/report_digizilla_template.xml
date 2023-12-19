@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Report Template -->
+        <template id="reports_report_digizilla">
+            <t t-call="web.basic_layout">
+                <t t-foreach="docs" t-as="o">
+                    <div class="page">
+                        <!-- Report Content Goes Here -->
+                        <h2>Digizilla Report</h2>
+                        <p>Name: <span t-field="o.Name"/></p>
+                        <p>Gender: <span t-field="o.Gender"/></p>
+                        <p>Country: <span t-field="o.Country.name"/></p>
+                        <p>Joining Date: <span t-field="o.Joining_Date"/></p>
+                        <p>Tags: <span t-field="o.Tags"/></p>
+                        <p>Company: <span t-field="o.Company.name"/></p>
+                        <p>Notes: <span t-field="o.Notes"/></p>
+                        <p>Comments: <span t-field="o.Comments"/></p>
+                        <p>Customers:</p>
+                        <ul>
+                            <t t-foreach="o.Customers" t-as="customer">
+                                <li><span t-field="customer.name"/></li>
+                            </t>
+                        </ul>
+                        <!-- Include more fields as needed -->
+                    </div>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>

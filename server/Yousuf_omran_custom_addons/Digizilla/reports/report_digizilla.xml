@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Report Definition -->
+        <record id="report_digizilla_id" model="ir.actions.report">
+            <field name='name'>Report</field>
+            <field name='model'>digizilla.objects</field>
+            <field name='report_type'>qweb-pdf</field>
+            <field name='report_name'>Digizilla.reports_report_digizilla</field>
+            <field name='report_file'>Digizilla.reports_report_digizilla</field>
+            <field name='binding_model_id' ref='model_digizilla_objects'/>
+            <field name='binding_type'>report</field>
+        </record>
+    </data>
+</odoo>

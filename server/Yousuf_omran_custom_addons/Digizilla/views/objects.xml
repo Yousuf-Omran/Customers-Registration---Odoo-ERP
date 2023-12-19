@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!--Kanban View-->     
+    <record id="digizilla_kanban_view" model="ir.ui.view">
+        <field name="name">Digizilla.Kanban</field>
+        <field name="model">digizilla.objects</field>
+        <field name="arch" type="xml"> 
+            <kanban>
+                <field name="Name"/>
+                <field name="Gender"/>
+                <field name="Country"/>
+                <field name="Joining_Date"/>
+                <field name="Tags"/>
+                <field name="Customers"/>
+                <field name="Company"/>
+                <field name="Notes"/>
+                <field name="Comments"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div t-attf-class="oe_kanban_global_click">
+                            <div class="oe_kanban_details">
+                                <strong class="o_kanban_record_title">
+                                    <field name="Name"/>
+                                </strong>
+                                <div t-if="record.Gender.value">Gender:
+                                    <t t-esc="record.Gender.value"/>
+                                </div>
+                                <div t-if="record.Country.value">Country:
+                                    <t t-esc="record.Country.value"/>
+                                </div>
+                                <div t-if="record.Joining_Date.value">Joining Date:
+                                    <t t-esc="record.Joining_Date.value"/>
+                                </div>
+                                <div t-if="record.Tags.value">Tags:
+                                    <t t-esc="record.Tags.value"/>
+                                </div>
+                                <div t-if="record.Customers.value">Customer records:
+                                    <t t-esc="record.Customers.value"/>
+                                </div>
+                                <div t-if="record.Company.value">Company:
+                                    <t t-esc="record.Company.value"/>
+                                </div>
+                                <div t-if="record.Notes.value">Notes:
+                                    <t t-esc="record.Notes.value"/>
+                                </div>
+                                <div t-if="record.Comments.value">Comments:
+                                    <t t-esc="record.Comments.value"/>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+
+    <!--List View-->
+    <record id="digizilla_list_view" model="ir.ui.view">
+    <field name="name">Digizilla.List</field>
+    <field name="model">digizilla.objects</field>
+    <field name="arch" type="xml"> 
+        <tree>
+            <field name="Name"/>
+            <field name="Gender"/>
+            <field name="Country"/>
+            <field name="Joining_Date"/>
+            <field name="Tags"/>
+            <field name="Customers"/>
+            <field name="Company"/>
+            <field name="Notes"/>
+            <field name="Comments"/>
+        </tree>
+    </field>
+    </record>
+
+    <!--Form View-->
+    <record id="digizilla_form_view" model="ir.ui.view">
+        <field name="name">Digizilla.Form</field>
+        <field name="model">digizilla.objects</field>
+        <field name="arch" type="xml"> 
+            <form>
+                <sheet>
+                    <group>
+                        <field name="Name"/>
+                        <field name="Gender"/>
+                        <field name="Country"/>
+                        <field name="Joining_Date"/>
+                        <field name="Tags"/>
+                        <field name="Customers"/>
+                        <field name="Company"/>
+                        <field name="Notes"/>
+                        <field name="Comments"/>
+                    </group>
+                </sheet>
+
+                <div class="oe_chatter">
+                        <field name="message_follower_ids"/>
+                        <field name="message_ids"/>
+                </div>
+
+                <!--Hide The Create Button-->
+                <script>
+                    <![CDATA[
+                        $(document).ready(function () {
+                            $('.o_form_button_create').hide();
+                        });
+                    ]]>
+                </script>
+            </form>
+        </field>
+    </record>
+    
+    <!--Action-->
+    <record model="ir.actions.act_window" id="Digizilla_action">
+        <field name="name">Digizilla</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">digizilla.objects</field>
+        <field name="view_mode">kanban,form,tree</field>
+    </record>
+    
+    <!--Menu-->
+    <menuitem
+        id="digizilla_menu_root"
+        name="Digizilla"
+        action="Digizilla_action" 
+        sequence="10"/>
+
+
+</odoo>

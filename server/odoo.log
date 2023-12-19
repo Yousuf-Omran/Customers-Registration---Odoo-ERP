@@ -1,0 +1,898 @@
+2023-12-14 22:25:07,701 29940 INFO ? odoo: Odoo version 16.0-20231214 
+2023-12-14 22:25:07,701 29940 INFO ? odoo: Using configuration file at D:\Odoo v16 community\odoo\server\odoo.conf 
+2023-12-14 22:25:07,701 29940 INFO ? odoo: addons paths: ['D:\\Odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\sessions\\addons\\16.0', 'd:\\odoo v16 community\\odoo\\server\\odoo\\addons'] 
+2023-12-14 22:25:07,702 29940 INFO ? odoo: database: openpg@localhost:5432 
+2023-12-14 22:25:09,531 29940 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo v16 community\odoo\thirdparty\wkhtmltopdf.exe 
+2023-12-14 22:25:11,952 29940 WARNING ? py.warnings: D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\lang_AR.py:191: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\Odoo v16 community\odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo v16 community\odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo v16 community\odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo v16 community\odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-14 22:25:11,955 29940 WARNING ? py.warnings: D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\lang_AR.py:195: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\Odoo v16 community\odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo v16 community\odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo v16 community\odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo v16 community\odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-14 22:25:11,958 29940 WARNING ? py.warnings: D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\lang_AR.py:229: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\Odoo v16 community\odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo v16 community\odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo v16 community\odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo v16 community\odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-14 22:25:11,961 29940 WARNING ? py.warnings: D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\lang_AR.py:231: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\Odoo v16 community\odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo v16 community\odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo v16 community\odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo v16 community\odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-14 22:25:11,964 29940 WARNING ? py.warnings: D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\lang_AR.py:239: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\Odoo v16 community\odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo v16 community\odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo v16 community\odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo v16 community\odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-14 22:25:11,967 29940 WARNING ? py.warnings: D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\lang_AR.py:253: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\Odoo v16 community\odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo v16 community\odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo v16 community\odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo v16 community\odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-14 22:25:11,969 29940 WARNING ? py.warnings: D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\lang_AR.py:291: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\Odoo v16 community\odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo v16 community\odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo v16 community\odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo v16 community\odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-14 22:25:11,972 29940 WARNING ? py.warnings: D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\lang_AR.py:302: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  File "D:\Odoo v16 community\odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo v16 community\odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo v16 community\odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo v16 community\odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-14 22:25:11,974 29940 WARNING ? py.warnings: D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\lang_AR.py:305: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  File "D:\Odoo v16 community\odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\Odoo v16 community\odoo\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\Odoo v16 community\odoo\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo v16 community\odoo\server\odoo\modules\module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\Odoo v16 community\odoo\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\Odoo v16 community\odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo v16 community\odoo\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-12-14 22:25:12,864 29940 INFO ? odoo.service.server: Initiating shutdown 
+2023-12-14 22:25:12,864 29940 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-12-14 22:25:40,034 3388 INFO ? odoo: Odoo version 16.0-20231214 
+2023-12-14 22:25:40,034 3388 INFO ? odoo: Using configuration file at D:\Odoo v16 community\odoo\server\odoo.conf 
+2023-12-14 22:25:40,034 3388 INFO ? odoo: addons paths: ['D:\\Odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\sessions\\addons\\16.0', 'd:\\odoo v16 community\\odoo\\server\\odoo\\addons'] 
+2023-12-14 22:25:40,034 3388 INFO ? odoo: database: openpg@localhost:5432 
+2023-12-14 22:25:40,499 3388 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo v16 community\odoo\thirdparty\wkhtmltopdf.exe 
+2023-12-14 22:25:41,013 3388 INFO ? odoo.sql_db: Connection to the database failed 
+2023-12-14 22:25:41,089 3388 INFO ? odoo.sql_db: Connection to the database failed 
+2023-12-14 22:25:41,814 3388 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-JVTP9S7:8069 
+2023-12-14 22:29:50,148 3388 INFO ? odoo.sql_db: Connection to the database failed 
+2023-12-14 22:29:50,184 3388 INFO ? werkzeug: 127.0.0.1 - - [14/Dec/2023 22:29:50] "GET / HTTP/1.1" 303 - 0 0.000 0.101
+2023-12-14 22:29:50,265 3388 INFO ? odoo.sql_db: Connection to the database failed 
+2023-12-14 22:29:50,332 3388 INFO ? odoo.sql_db: Connection to the database failed 
+2023-12-14 22:29:50,334 3388 INFO ? werkzeug: 127.0.0.1 - - [14/Dec/2023 22:29:50] "GET /web HTTP/1.1" 303 - 0 0.000 0.143
+2023-12-14 22:29:50,404 3388 INFO ? odoo.sql_db: Connection to the database failed 
+2023-12-14 22:29:51,969 3388 INFO ? odoo.sql_db: Connection to the database failed 
+2023-12-14 22:29:52,062 3388 INFO ? werkzeug: 127.0.0.1 - - [14/Dec/2023 22:29:52] "GET /web/database/selector HTTP/1.1" 200 - 0 0.000 1.722
+2023-12-14 22:31:24,542 3388 INFO ? odoo.sql_db: Connection to the database failed 
+2023-12-14 22:31:24,663 3388 INFO None odoo.service.db: Create database `digizilla`. 
+2023-12-14 22:31:24,717 3388 INFO None odoo.sql_db: Connection to the database failed 
+2023-12-14 22:31:24,717 3388 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "D:\Odoo v16 community\odoo\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\db.py", line 480, in dispatch
+    return g[exp_method_name](*params)
+  File "<decorator-gen-19>", line 2, in exp_create_database
+  File "D:\Odoo v16 community\odoo\server\odoo\service\db.py", line 43, in if_db_mgt_enabled
+    return method(self, *args, **kwargs)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\db.py", line 140, in exp_create_database
+    _create_empty_database(db_name)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\db.py", line 101, in _create_empty_database
+    with closing(db.cursor()) as cr:
+  File "D:\Odoo v16 community\odoo\server\odoo\sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "D:\Odoo v16 community\odoo\server\odoo\sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "D:\Odoo v16 community\odoo\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "D:\Odoo v16 community\odoo\server\odoo\sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "D:\Odoo v16 community\odoo\python\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "openpg"
+
+2023-12-14 22:31:24,832 3388 INFO None odoo.sql_db: Connection to the database failed 
+2023-12-14 22:31:24,925 3388 INFO None werkzeug: 127.0.0.1 - - [14/Dec/2023 22:31:24] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 0.437
+2023-12-14 22:33:29,586 3388 INFO ? odoo.sql_db: Connection to the database failed 
+2023-12-14 22:33:29,732 3388 INFO None odoo.service.db: Create database `openpg`. 
+2023-12-14 22:33:29,805 3388 INFO None odoo.sql_db: Connection to the database failed 
+2023-12-14 22:33:29,805 3388 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "D:\Odoo v16 community\odoo\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\db.py", line 480, in dispatch
+    return g[exp_method_name](*params)
+  File "<decorator-gen-19>", line 2, in exp_create_database
+  File "D:\Odoo v16 community\odoo\server\odoo\service\db.py", line 43, in if_db_mgt_enabled
+    return method(self, *args, **kwargs)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\db.py", line 140, in exp_create_database
+    _create_empty_database(db_name)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\db.py", line 101, in _create_empty_database
+    with closing(db.cursor()) as cr:
+  File "D:\Odoo v16 community\odoo\server\odoo\sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "D:\Odoo v16 community\odoo\server\odoo\sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "D:\Odoo v16 community\odoo\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "D:\Odoo v16 community\odoo\server\odoo\sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "D:\Odoo v16 community\odoo\python\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "openpg"
+
+2023-12-14 22:33:29,941 3388 INFO None odoo.sql_db: Connection to the database failed 
+2023-12-14 22:33:30,018 3388 INFO None werkzeug: 127.0.0.1 - - [14/Dec/2023 22:33:30] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 0.501
+2023-12-14 22:34:40,787 3388 INFO ? odoo.service.server: Initiating shutdown 
+2023-12-14 22:34:40,787 3388 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-12-14 22:34:41,849 3388 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 0 connections  
+2023-12-14 22:34:46,406 3724 INFO ? odoo: Odoo version 16.0-20231214 
+2023-12-14 22:34:46,407 3724 INFO ? odoo: Using configuration file at D:\Odoo v16 community\odoo\server\odoo.conf 
+2023-12-14 22:34:46,407 3724 INFO ? odoo: addons paths: ['D:\\Odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\sessions\\addons\\16.0', 'd:\odoo v16 community\odoo\server\custom_addons'] 
+2023-12-14 22:34:46,408 3724 INFO ? odoo: database: digizilla@localhost:5432 
+2023-12-14 22:34:46,752 3724 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo v16 community\odoo\thirdparty\wkhtmltopdf.exe 
+2023-12-14 22:34:48,128 3724 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-JVTP9S7:8069 
+2023-12-14 22:35:08,120 3724 INFO digizilla odoo.modules.loading: loading 1 modules... 
+2023-12-14 22:35:08,129 3724 INFO digizilla odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-12-14 22:35:08,132 3724 INFO digizilla odoo.modules.loading: loading 8 modules... 
+2023-12-14 22:35:09,326 3724 INFO digizilla odoo.modules.loading: 8 modules loaded in 1.19s, 0 queries (+0 extra) 
+2023-12-14 22:35:09,373 3724 INFO digizilla odoo.modules.loading: Modules loaded. 
+2023-12-14 22:35:09,377 3724 INFO digizilla odoo.modules.registry: Registry loaded in 1.327s 
+2023-12-14 22:35:09,379 3724 INFO digizilla odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-12-14 22:35:09,729 3724 INFO None odoo.service.db: Create database `digizilla`. 
+2023-12-14 22:35:09,795 3724 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "D:\Odoo v16 community\odoo\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "D:\Odoo v16 community\odoo\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\db.py", line 480, in dispatch
+    return g[exp_method_name](*params)
+  File "<decorator-gen-19>", line 2, in exp_create_database
+  File "D:\Odoo v16 community\odoo\server\odoo\service\db.py", line 43, in if_db_mgt_enabled
+    return method(self, *args, **kwargs)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\db.py", line 140, in exp_create_database
+    _create_empty_database(db_name)
+  File "D:\Odoo v16 community\odoo\server\odoo\service\db.py", line 106, in _create_empty_database
+    raise DatabaseExists("database %r already exists!" % (name,))
+odoo.service.db.DatabaseExists: database 'digizilla' already exists!
+2023-12-14 22:35:10,059 3724 INFO None werkzeug: 127.0.0.1 - - [14/Dec/2023 22:35:10] "POST /web/database/create HTTP/1.1" 200 - 26 0.046 3.399
+2023-12-14 22:35:54,737 3724 INFO None odoo.sql_db: ConnectionPool(used=2/count=2/max=64): Closed 2 connections to 'user=digizilla password=xxx dbname=digizilla host=localhost port=5432 application_name=odoo-3724 sslmode=prefer' 
+2023-12-14 22:35:55,159 3724 INFO None odoo.service.db: DROP DB: digizilla 
+2023-12-14 22:35:55,165 3724 INFO None werkzeug: 127.0.0.1 - - [14/Dec/2023 22:35:55] "POST /web/database/drop HTTP/1.1" 303 - 5 0.367 0.301
+2023-12-14 22:35:55,592 3724 INFO ? werkzeug: 127.0.0.1 - - [14/Dec/2023 22:35:55] "GET /web/database/manager HTTP/1.1" 200 - 2 0.012 0.396
+2023-12-14 22:36:23,539 3724 INFO None odoo.service.db: Create database `digizilla`. 
+2023-12-14 22:36:26,430 3724 INFO digizilla odoo.modules.loading: loading 1 modules... 
+2023-12-14 22:36:26,430 3724 INFO digizilla odoo.modules.loading: Loading module base (1/1) 
+2023-12-14 22:36:26,463 3724 INFO digizilla odoo.modules.registry: module base: creating or updating database tables 
+2023-12-14 22:36:27,320 3724 INFO digizilla odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2023-12-14 22:36:27,320 3724 INFO digizilla odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2023-12-14 22:36:27,320 3724 INFO digizilla odoo.models: Prepare computation of ir.module.module.views_by_module 
+2023-12-14 22:36:27,610 3724 INFO digizilla odoo.models: Prepare computation of res.partner.user_id 
+2023-12-14 22:36:27,610 3724 INFO digizilla odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2023-12-14 22:36:27,610 3724 INFO digizilla odoo.models: Prepare computation of res.partner.display_name 
+2023-12-14 22:36:27,611 3724 INFO digizilla odoo.models: Prepare computation of res.partner.company_registry 
+2023-12-14 22:36:27,611 3724 INFO digizilla odoo.models: Prepare computation of res.partner.commercial_company_name 
+2023-12-14 22:36:27,611 3724 INFO digizilla odoo.models: Prepare computation of res.partner.partner_share 
+2023-12-14 22:36:27,711 3724 INFO digizilla odoo.models: Prepare computation of res.currency.decimal_places 
+2023-12-14 22:36:27,774 3724 INFO digizilla odoo.models: Prepare computation of res.company.logo_web 
+2023-12-14 22:36:27,844 3724 INFO digizilla odoo.models: Prepare computation of res.users.signature 
+2023-12-14 22:36:27,845 3724 INFO digizilla odoo.models: Prepare computation of res.users.share 
+2023-12-14 22:36:30,588 3724 INFO digizilla odoo.modules.loading: loading base/data/res_bank.xml 
+2023-12-14 22:36:30,599 3724 INFO digizilla odoo.modules.loading: loading base/data/res.lang.csv 
+2023-12-14 22:36:30,694 3724 INFO digizilla odoo.modules.loading: loading base/data/res_lang_data.xml 
+2023-12-14 22:36:30,736 3724 INFO digizilla odoo.modules.loading: loading base/data/res_partner_data.xml 
+2023-12-14 22:36:30,830 3724 INFO digizilla odoo.modules.loading: loading base/data/res_currency_data.xml 
+2023-12-14 22:36:31,538 3724 INFO digizilla odoo.modules.loading: loading base/data/res_company_data.xml 
+2023-12-14 22:36:31,560 3724 INFO digizilla odoo.modules.loading: loading base/data/res_users_data.xml 
+2023-12-14 22:36:32,563 3724 INFO digizilla odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2023-12-14 22:36:32,580 3724 INFO digizilla odoo.modules.loading: loading base/data/res_country_data.xml 
+2023-12-14 22:36:33,215 3724 INFO digizilla odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2023-12-14 22:36:33,230 3724 INFO digizilla odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2023-12-14 22:36:33,241 3724 INFO digizilla odoo.modules.loading: loading base/security/base_groups.xml 
+2023-12-14 22:36:33,568 3724 INFO digizilla odoo.modules.loading: loading base/security/base_security.xml 
+2023-12-14 22:36:33,721 3724 INFO digizilla odoo.modules.loading: loading base/views/base_menus.xml 
+2023-12-14 22:36:33,889 3724 INFO digizilla odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2023-12-14 22:36:33,922 3724 INFO digizilla odoo.modules.loading: loading base/views/res_config_views.xml 
+2023-12-14 22:36:33,936 3724 INFO digizilla odoo.modules.loading: loading base/data/res.country.state.csv 
+2023-12-14 22:36:34,692 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2023-12-14 22:36:34,847 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2023-12-14 22:36:34,873 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2023-12-14 22:36:34,899 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2023-12-14 22:36:34,944 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2023-12-14 22:36:34,970 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2023-12-14 22:36:34,997 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2023-12-14 22:36:35,029 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_model_views.xml 
+2023-12-14 22:36:35,286 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2023-12-14 22:36:35,321 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2023-12-14 22:36:35,358 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2023-12-14 22:36:35,388 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2023-12-14 22:36:35,418 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2023-12-14 22:36:35,489 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_default_views.xml 
+2023-12-14 22:36:35,518 3724 INFO digizilla odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2023-12-14 22:36:35,528 3724 INFO digizilla odoo.modules.loading: loading base/report/ir_model_report.xml 
+2023-12-14 22:36:35,535 3724 INFO digizilla odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2023-12-14 22:36:35,545 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2023-12-14 22:36:35,575 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2023-12-14 22:36:35,588 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_module_views.xml 
+2023-12-14 22:36:35,687 3724 INFO digizilla odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2023-12-14 22:36:35,788 3724 INFO digizilla odoo.modules.loading: loading base/data/ir_module_module.xml 
+2023-12-14 22:36:35,878 3724 INFO digizilla odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2023-12-14 22:36:35,884 3724 INFO digizilla odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2023-12-14 22:36:35,893 3724 INFO digizilla odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2023-12-14 22:36:35,911 3724 INFO digizilla odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2023-12-14 22:36:35,928 3724 INFO digizilla odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2023-12-14 22:36:35,947 3724 INFO digizilla odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2023-12-14 22:36:35,974 3724 INFO digizilla odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2023-12-14 22:36:35,985 3724 INFO digizilla odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2023-12-14 22:36:36,003 3724 INFO digizilla odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2023-12-14 22:36:36,023 3724 INFO digizilla odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2023-12-14 22:36:36,029 3724 INFO digizilla odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2023-12-14 22:36:36,050 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2023-12-14 22:36:36,084 3724 INFO digizilla odoo.modules.loading: loading base/views/res_company_views.xml 
+2023-12-14 22:36:36,117 3724 INFO digizilla odoo.modules.loading: loading base/views/res_lang_views.xml 
+2023-12-14 22:36:36,151 3724 INFO digizilla odoo.modules.loading: loading base/views/res_partner_views.xml 
+2023-12-14 22:36:36,308 3724 INFO digizilla odoo.modules.loading: loading base/views/res_bank_views.xml 
+2023-12-14 22:36:36,355 3724 INFO digizilla odoo.modules.loading: loading base/views/res_country_views.xml 
+2023-12-14 22:36:36,404 3724 INFO digizilla odoo.modules.loading: loading base/views/res_currency_views.xml 
+2023-12-14 22:36:36,456 3724 INFO digizilla odoo.modules.loading: loading base/views/res_users_views.xml 
+2023-12-14 22:36:36,621 3724 INFO digizilla odoo.modules.loading: loading base/views/ir_property_views.xml 
+2023-12-14 22:36:36,651 3724 INFO digizilla odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2023-12-14 22:36:36,661 3724 INFO digizilla odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2023-12-14 22:36:36,701 3724 INFO digizilla odoo.modules.loading: loading base/views/onboarding_views.xml 
+2023-12-14 22:36:36,735 3724 INFO digizilla odoo.modules.loading: loading base/security/ir.model.access.csv 
+2023-12-14 22:36:36,882 3724 INFO digizilla odoo.modules.loading: Module base: loading demo 
+2023-12-14 22:36:36,883 3724 INFO digizilla odoo.modules.loading: loading base/data/res_company_demo.xml 
+2023-12-14 22:36:36,895 3724 INFO digizilla odoo.modules.loading: loading base/data/res_users_demo.xml 
+2023-12-14 22:36:38,104 3724 INFO digizilla odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2023-12-14 22:36:38,111 3724 INFO digizilla odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2023-12-14 22:36:38,459 3724 INFO digizilla odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2023-12-14 22:36:38,467 3724 INFO digizilla odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2023-12-14 22:36:38,823 3724 INFO digizilla odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2023-12-14 22:36:39,770 3724 INFO digizilla odoo.modules.loading: Module base loaded in 13.34s, 9005 queries (+9005 other) 
+2023-12-14 22:36:39,771 3724 INFO digizilla odoo.modules.loading: 1 modules loaded in 13.34s, 9005 queries (+9005 extra) 
+2023-12-14 22:36:39,819 3724 INFO digizilla odoo.modules.loading: updating modules list 
+2023-12-14 22:36:39,819 3724 INFO digizilla odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2023-12-14 22:36:40,831 3724 INFO digizilla odoo.modules.loading: loading 8 modules... 
+2023-12-14 22:36:40,831 3724 INFO digizilla odoo.modules.loading: Loading module web (2/8) 
+2023-12-14 22:36:40,859 3724 INFO digizilla odoo.modules.registry: module web: creating or updating database tables 
+2023-12-14 22:36:41,628 3724 INFO digizilla odoo.modules.loading: loading web/security/ir.model.access.csv 
+2023-12-14 22:36:41,643 3724 INFO digizilla odoo.modules.loading: loading web/views/webclient_templates.xml 
+2023-12-14 22:36:41,717 3724 INFO digizilla odoo.modules.loading: loading web/views/report_templates.xml 
+2023-12-14 22:36:41,822 3724 INFO digizilla odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2023-12-14 22:36:41,839 3724 INFO digizilla odoo.modules.loading: loading web/views/speedscope_template.xml 
+2023-12-14 22:36:41,846 3724 INFO digizilla odoo.modules.loading: loading web/views/lazy_assets.xml 
+2023-12-14 22:36:41,856 3724 INFO digizilla odoo.modules.loading: loading web/views/neutralize_views.xml 
+2023-12-14 22:36:41,865 3724 INFO digizilla odoo.modules.loading: loading web/data/ir_attachment.xml 
+2023-12-14 22:36:41,874 3724 INFO digizilla odoo.modules.loading: loading web/data/report_layout.xml 
+2023-12-14 22:36:41,933 3724 INFO digizilla odoo.modules.loading: Module web loaded in 1.10s, 882 queries (+882 other) 
+2023-12-14 22:36:41,933 3724 INFO digizilla odoo.modules.loading: Loading module auth_totp (3/8) 
+2023-12-14 22:36:41,952 3724 INFO digizilla odoo.modules.registry: module auth_totp: creating or updating database tables 
+2023-12-14 22:36:42,047 3724 INFO digizilla odoo.modules.loading: loading auth_totp/security/security.xml 
+2023-12-14 22:36:42,083 3724 INFO digizilla odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2023-12-14 22:36:42,097 3724 INFO digizilla odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2023-12-14 22:36:42,108 3724 INFO digizilla odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2023-12-14 22:36:42,145 3724 INFO digizilla odoo.modules.loading: loading auth_totp/views/templates.xml 
+2023-12-14 22:36:42,154 3724 INFO digizilla odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2023-12-14 22:36:42,181 3724 INFO digizilla odoo.modules.loading: Module auth_totp loaded in 0.25s, 174 queries (+174 other) 
+2023-12-14 22:36:42,181 3724 INFO digizilla odoo.modules.loading: Loading module base_import (4/8) 
+2023-12-14 22:36:42,222 3724 INFO digizilla odoo.modules.registry: module base_import: creating or updating database tables 
+2023-12-14 22:36:43,461 3724 INFO digizilla odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2023-12-14 22:36:43,513 3724 INFO digizilla odoo.modules.loading: Module base_import loaded in 1.33s, 891 queries (+891 other) 
+2023-12-14 22:36:43,513 3724 INFO digizilla odoo.modules.loading: Loading module bus (5/8) 
+2023-12-14 22:36:43,536 3724 INFO digizilla odoo.modules.registry: module bus: creating or updating database tables 
+2023-12-14 22:36:43,659 3724 INFO digizilla odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2023-12-14 22:36:43,691 3724 INFO digizilla odoo.modules.loading: Module bus loaded in 0.18s, 103 queries (+103 other) 
+2023-12-14 22:36:43,691 3724 INFO digizilla odoo.modules.loading: Loading module web_kanban_gauge (6/8) 
+2023-12-14 22:36:43,741 3724 INFO digizilla odoo.modules.loading: Module web_kanban_gauge loaded in 0.05s, 12 queries (+12 other) 
+2023-12-14 22:36:43,742 3724 INFO digizilla odoo.modules.loading: Loading module web_tour (7/8) 
+2023-12-14 22:36:43,768 3724 INFO digizilla odoo.modules.registry: module web_tour: creating or updating database tables 
+2023-12-14 22:36:43,814 3724 INFO digizilla odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2023-12-14 22:36:43,827 3724 INFO digizilla odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2023-12-14 22:36:43,838 3724 INFO digizilla odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2023-12-14 22:36:43,877 3724 INFO digizilla odoo.modules.loading: Module web_tour loaded in 0.13s, 101 queries (+101 other) 
+2023-12-14 22:36:43,878 3724 INFO digizilla odoo.modules.loading: Loading module web_editor (8/8) 
+2023-12-14 22:36:43,920 3724 INFO digizilla odoo.modules.registry: module web_editor: creating or updating database tables 
+2023-12-14 22:36:44,802 3724 INFO digizilla odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2023-12-14 22:36:44,815 3724 INFO digizilla odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2023-12-14 22:36:44,822 3724 INFO digizilla odoo.modules.loading: loading web_editor/views/editor.xml 
+2023-12-14 22:36:44,852 3724 INFO digizilla odoo.modules.loading: loading web_editor/views/snippets.xml 
+2023-12-14 22:36:44,913 3724 INFO digizilla odoo.modules.loading: Module web_editor loaded in 1.04s, 821 queries (+821 other) 
+2023-12-14 22:36:44,913 3724 INFO digizilla odoo.modules.loading: 8 modules loaded in 4.08s, 2984 queries (+2984 extra) 
+2023-12-14 22:36:45,247 3724 INFO digizilla odoo.modules.loading: Modules loaded. 
+2023-12-14 22:36:45,252 3724 INFO digizilla odoo.modules.registry: Registry loaded in 18.841s 
+2023-12-14 22:36:46,293 3724 INFO digizilla odoo.addons.base.models.res_users: Login successful for db:digizilla login:yousufomran619@gmail.com from 127.0.0.1 
+2023-12-14 22:36:46,309 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:36:46] "POST /web/database/create HTTP/1.1" 303 - 16977 13.721 9.184
+2023-12-14 22:36:46,318 3724 INFO digizilla odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-12-14 22:36:46,431 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:36:46] "GET /web HTTP/1.1" 303 - 6 0.005 0.112
+2023-12-14 22:36:57,819 3724 INFO digizilla odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2023-12-14 22:37:02,300 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:02] "GET /web/login HTTP/1.1" 200 - 68 0.097 15.765
+2023-12-14 22:37:02,380 3724 INFO digizilla odoo.addons.base.models.ir_attachment: filestore gc 59 checked, 0 removed 
+2023-12-14 22:37:02,493 3724 INFO digizilla odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2023-12-14 22:37:02,562 3724 INFO digizilla odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2023-12-14 22:37:02,614 3724 INFO digizilla odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2023-12-14 22:37:03,568 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:03] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.004 0.006
+2023-12-14 22:37:03,572 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:03] "GET /web/assets/190-eacfe56/web.assets_frontend.min.css HTTP/1.1" 200 - 6 0.004 0.011
+2023-12-14 22:37:03,573 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:03] "GET /web/assets/191-c087269/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 6 0.005 0.009
+2023-12-14 22:37:04,218 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:04] "GET /web/assets/192-6ab799a/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 5 0.006 0.006
+2023-12-14 22:37:05,198 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:05] "GET /web/webclient/translations/1702593424807 HTTP/1.1" 200 - 3 0.007 0.067
+2023-12-14 22:37:05,387 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:05] "GET /web/webclient/translations/1702593425240 HTTP/1.1" 200 - 3 0.005 0.008
+2023-12-14 22:37:18,149 3724 INFO digizilla odoo.addons.base.models.res_users: Login successful for db:digizilla login:yousufomran619@gmail.com from 127.0.0.1 
+2023-12-14 22:37:18,167 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:18] "POST /web/login HTTP/1.1" 303 - 29 0.037 0.603
+2023-12-14 22:37:42,294 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:42] "GET /web HTTP/1.1" 200 - 95 0.124 23.994
+2023-12-14 22:37:42,743 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:42] "GET /web/assets/193-03a7d6b/web.assets_common.min.css HTTP/1.1" 200 - 4 0.008 0.040
+2023-12-14 22:37:42,757 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:42] "GET /web/assets/194-8e7eb3e/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.008 0.026
+2023-12-14 22:37:42,772 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:42] "GET /web/assets/195-03a7d6b/web.assets_common.min.js HTTP/1.1" 200 - 4 0.009 0.038
+2023-12-14 22:37:42,777 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:42] "GET /web/assets/196-8e7eb3e/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.013 0.032
+2023-12-14 22:37:42,779 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:42] "GET /web/assets/197-7ebde9c/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.009 0.033
+2023-12-14 22:37:43,909 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:43] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 10 0.019 0.075
+2023-12-14 22:37:44,253 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:44] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.013 0.018
+2023-12-14 22:37:44,260 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:44] "POST /web/action/load HTTP/1.1" 200 - 11 0.018 0.020
+2023-12-14 22:37:44,287 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:44] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.014
+2023-12-14 22:37:44,298 3724 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-12-14 22:37:44,591 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:44] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.066 0.051
+2023-12-14 22:37:44,797 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:44] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.041 0.024
+2023-12-14 22:37:45,049 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:37:45] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.007
+2023-12-14 22:38:15,804 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:38:15] "POST /web/action/load HTTP/1.1" 200 - 25 0.018 0.013
+2023-12-14 22:38:16,096 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:38:16] "POST /web/dataset/call_kw/res.users/get_views HTTP/1.1" 200 - 44 0.027 0.044
+2023-12-14 22:38:16,139 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:38:16] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 14 0.014 0.007
+2023-12-14 22:38:16,427 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:38:16] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.004
+2023-12-14 22:39:05,988 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:39:05] "POST /web/session/account HTTP/1.1" 200 - 2 0.002 0.002
+2023-12-14 22:40:43,683 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:40:43] "GET / HTTP/1.1" 303 - 2 0.001 0.008
+2023-12-14 22:40:43,746 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:40:43] "GET /web HTTP/1.1" 200 - 9 0.009 0.021
+2023-12-14 22:40:45,890 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:40:45] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.005 0.009
+2023-12-14 22:40:46,469 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:40:46] "POST /web/action/load HTTP/1.1" 200 - 10 0.006 0.011
+2023-12-14 22:40:46,488 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:40:46] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.009 0.009
+2023-12-14 22:40:46,522 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:40:46] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.010
+2023-12-14 22:40:46,713 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:40:46] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.003 0.008
+2023-12-14 22:40:46,814 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:40:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.019 0.014
+2023-12-14 22:40:47,046 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:40:47] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.007
+2023-12-14 22:41:55,699 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:41:55] "GET /web HTTP/1.1" 200 - 9 0.008 0.008
+2023-12-14 22:41:56,542 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:41:56] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.006 0.012
+2023-12-14 22:41:56,548 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:41:56] "POST /web/action/load HTTP/1.1" 200 - 10 0.014 0.013
+2023-12-14 22:41:56,936 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:41:56] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.004 0.032
+2023-12-14 22:41:56,954 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:41:56] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.018 0.025
+2023-12-14 22:41:56,970 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:41:56] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.016
+2023-12-14 22:41:57,201 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:41:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.029 0.021
+2023-12-14 22:41:57,298 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:41:57] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.011
+2023-12-14 22:41:58,306 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:41:58] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.012 0.013
+2023-12-14 22:42:03,088 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:42:03] "POST /web/action/load HTTP/1.1" 200 - 12 0.010 0.014
+2023-12-14 22:42:03,356 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:42:03] "POST /web/dataset/call_kw/res.users/get_views HTTP/1.1" 200 - 13 0.011 0.029
+2023-12-14 22:42:03,415 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:42:03] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 7 0.007 0.009
+2023-12-14 22:42:03,692 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:42:03] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.004
+2023-12-14 22:42:07,136 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:42:07] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.002 0.021
+2023-12-14 22:42:07,466 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:42:07] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.007
+2023-12-14 22:42:07,498 3724 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:42:07] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.026 0.016
+2023-12-14 22:45:27,550 2672 INFO ? odoo: Odoo version 16.0-20231214 
+2023-12-14 22:45:27,551 2672 INFO ? odoo: Using configuration file at D:\Odoo v16 community\odoo\server\odoo.conf 
+2023-12-14 22:45:27,551 2672 INFO ? odoo: addons paths: ['d:\\Odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\sessions\\addons\\16.0', 'd:\\odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\custom_addons'] 
+2023-12-14 22:45:27,552 2672 INFO ? odoo: database: digizilla@localhost:5432 
+2023-12-14 22:45:27,975 2672 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo v16 community\odoo\thirdparty\wkhtmltopdf.exe 
+2023-12-14 22:45:29,380 2672 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-JVTP9S7:8069 
+2023-12-14 22:45:47,706 3724 INFO ? odoo.service.server: Initiating shutdown 
+2023-12-14 22:45:47,707 3724 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-12-14 22:45:47,992 3724 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 7 connections  
+2023-12-14 22:45:50,228 2672 INFO digizilla odoo.modules.loading: loading 1 modules... 
+2023-12-14 22:45:50,240 2672 INFO digizilla odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-12-14 22:45:50,314 2672 INFO digizilla odoo.modules.loading: loading 8 modules... 
+2023-12-14 22:45:50,597 2672 INFO digizilla odoo.modules.loading: 8 modules loaded in 0.28s, 0 queries (+0 extra) 
+2023-12-14 22:45:50,644 2672 INFO digizilla odoo.modules.loading: Modules loaded. 
+2023-12-14 22:45:50,648 2672 INFO digizilla odoo.modules.registry: Registry loaded in 0.512s 
+2023-12-14 22:45:50,650 2672 INFO digizilla odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-12-14 22:45:50,827 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:45:50] "GET /websocket HTTP/1.1" 101 - 22 0.038 0.655
+2023-12-14 22:45:50,836 2672 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-12-14 22:45:51,847 12848 INFO ? odoo: Odoo version 16.0-20231214 
+2023-12-14 22:45:51,847 12848 INFO ? odoo: Using configuration file at D:\Odoo v16 community\odoo\server\odoo.conf 
+2023-12-14 22:45:51,847 12848 INFO ? odoo: addons paths: ['D:\\Odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\sessions\\addons\\16.0', 'd:\\odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\custom_addons'] 
+2023-12-14 22:45:51,848 12848 INFO ? odoo: database: digizilla@localhost:5432 
+2023-12-14 22:45:52,170 12848 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo v16 community\odoo\thirdparty\wkhtmltopdf.exe 
+2023-12-14 22:45:53,670 12848 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-JVTP9S7:8069 
+2023-12-14 22:45:55,073 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:45:55] "GET /web HTTP/1.1" 200 - 80 0.072 2.092
+2023-12-14 22:45:56,410 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:45:56] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.003 0.012
+2023-12-14 22:45:57,040 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:45:57] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.023 0.222
+2023-12-14 22:45:57,050 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:45:57] "GET /websocket HTTP/1.1" 101 - 1 0.002 0.217
+2023-12-14 22:46:01,598 2672 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'Digizilla', defaulting to LGPL-3 
+2023-12-14 22:46:01,599 2672 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'Digizilla', defaulting to LGPL-3 
+2023-12-14 22:46:01,606 2672 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'trial', defaulting to LGPL-3 
+2023-12-14 22:46:01,606 2672 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'trial', defaulting to LGPL-3 
+2023-12-14 22:46:01,623 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:01] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 10 0.005 4.237
+2023-12-14 22:46:01,637 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:01] "POST /web/action/load HTTP/1.1" 200 - 12 0.021 5.225
+2023-12-14 22:46:02,016 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:02] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.032 0.027
+2023-12-14 22:46:02,267 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:02] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.040 0.019
+2023-12-14 22:46:02,351 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:02] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.006
+2023-12-14 22:46:06,161 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:06] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.034 0.034
+2023-12-14 22:46:06,433 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:06] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.007 0.016
+2023-12-14 22:46:13,134 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:13] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.087 0.028
+2023-12-14 22:46:13,280 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:13] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.006 0.004
+2023-12-14 22:46:13,479 2672 INFO ? werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:13] "GET /website_sale_digital/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.029
+2023-12-14 22:46:17,805 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:17] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.026 0.023
+2023-12-14 22:46:18,111 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:18] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.008
+2023-12-14 22:46:28,861 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:28] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.053 0.019
+2023-12-14 22:46:29,050 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:29] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.006 0.003
+2023-12-14 22:46:29,190 2672 INFO ? werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:29] "GET /web/static/img/empty_folder.svg HTTP/1.1" 200 - 0 0.000 0.020
+2023-12-14 22:46:36,446 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:36] "GET /web HTTP/1.1" 200 - 9 0.006 0.014
+2023-12-14 22:46:37,690 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:37] "POST /web/action/load HTTP/1.1" 200 - 10 0.008 0.014
+2023-12-14 22:46:38,000 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:38] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.003 0.021
+2023-12-14 22:46:38,124 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:38] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.015
+2023-12-14 22:46:38,171 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.042 0.027
+2023-12-14 22:46:38,364 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:38] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.013 0.015
+2023-12-14 22:46:38,365 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:38] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.005 0.015
+2023-12-14 22:46:39,610 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:39] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2023-12-14 22:46:39,960 2672 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:46:39] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.008 0.016
+2023-12-14 22:48:29,517 12848 INFO digizilla odoo.modules.loading: loading 1 modules... 
+2023-12-14 22:48:29,542 12848 INFO digizilla odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2023-12-14 22:48:29,574 12848 INFO digizilla odoo.modules.loading: loading 8 modules... 
+2023-12-14 22:48:29,829 12848 INFO digizilla odoo.modules.loading: 8 modules loaded in 0.26s, 0 queries (+0 extra) 
+2023-12-14 22:48:29,885 12848 INFO digizilla odoo.modules.loading: Modules loaded. 
+2023-12-14 22:48:29,889 12848 INFO digizilla odoo.modules.registry: Registry loaded in 0.507s 
+2023-12-14 22:48:29,891 12848 INFO digizilla odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-12-14 22:48:30,064 12848 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:48:30] "GET /websocket HTTP/1.1" 101 - 22 0.043 0.642
+2023-12-14 22:48:30,071 12848 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-12-14 22:48:57,085 29716 INFO ? odoo: Odoo version 16.0-20231214 
+2023-12-14 22:48:57,085 29716 INFO ? odoo: Using configuration file at D:\Odoo v16 community\odoo\server\odoo.conf 
+2023-12-14 22:48:57,086 29716 INFO ? odoo: addons paths: ['d:\\Odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\sessions\\addons\\16.0', 'd:\\odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\custom_addons'] 
+2023-12-14 22:48:57,086 29716 INFO ? odoo: database: digizilla@localhost:5432 
+2023-12-14 22:48:57,418 29716 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo v16 community\odoo\thirdparty\wkhtmltopdf.exe 
+2023-12-14 22:48:58,719 29716 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-JVTP9S7:8069 
+2023-12-14 22:49:24,430 12848 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:24] "GET /web HTTP/1.1" 200 - 80 0.061 1.963
+2023-12-14 22:49:25,607 12848 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:25] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.004 0.015
+2023-12-14 22:49:26,024 12848 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:26] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.021 0.021
+2023-12-14 22:49:26,092 12848 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:26] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.013
+2023-12-14 22:49:27,847 12848 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'Digizilla', defaulting to LGPL-3 
+2023-12-14 22:49:27,851 12848 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'Digizilla', defaulting to LGPL-3 
+2023-12-14 22:49:27,858 12848 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'trial', defaulting to LGPL-3 
+2023-12-14 22:49:27,862 12848 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'trial', defaulting to LGPL-3 
+2023-12-14 22:49:27,993 12848 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:27] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 10 0.013 1.480
+2023-12-14 22:49:28,030 12848 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:28] "POST /web/action/load HTTP/1.1" 200 - 12 0.021 2.423
+2023-12-14 22:49:28,450 12848 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:28] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.042 0.064
+2023-12-14 22:49:28,643 12848 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:28] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.031 0.018
+2023-12-14 22:49:28,785 12848 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:28] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.005
+2023-12-14 22:49:34,291 12848 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.027 0.025
+2023-12-14 22:49:34,607 12848 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:34] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.001 0.005
+2023-12-14 22:49:37,021 12848 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:37] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.070 0.019
+2023-12-14 22:49:37,344 12848 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:37] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.007 0.005
+2023-12-14 22:49:44,045 12848 INFO ? odoo.service.server: Initiating shutdown 
+2023-12-14 22:49:44,045 12848 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-12-14 22:49:45,049 12848 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 5 connections  
+2023-12-14 22:49:46,282 29716 INFO digizilla odoo.modules.loading: loading 1 modules... 
+2023-12-14 22:49:46,291 29716 INFO digizilla odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-12-14 22:49:46,307 29716 INFO digizilla odoo.modules.loading: loading 8 modules... 
+2023-12-14 22:49:46,442 29716 INFO digizilla odoo.modules.loading: 8 modules loaded in 0.13s, 0 queries (+0 extra) 
+2023-12-14 22:49:46,480 29716 INFO digizilla odoo.modules.loading: Modules loaded. 
+2023-12-14 22:49:46,482 29716 INFO digizilla odoo.modules.registry: Registry loaded in 0.274s 
+2023-12-14 22:49:46,484 29716 INFO digizilla odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-12-14 22:49:46,636 29716 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:46] "GET /websocket HTTP/1.1" 101 - 22 0.033 0.396
+2023-12-14 22:49:46,642 29716 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-12-14 22:49:49,829 29792 INFO ? odoo: Odoo version 16.0-20231214 
+2023-12-14 22:49:49,829 29792 INFO ? odoo: Using configuration file at D:\Odoo v16 community\odoo\server\odoo.conf 
+2023-12-14 22:49:49,829 29792 INFO ? odoo: addons paths: ['D:\\Odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\sessions\\addons\\16.0', 'd:\\odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\custom_addons'] 
+2023-12-14 22:49:49,829 29792 INFO ? odoo: database: digizilla@localhost:5432 
+2023-12-14 22:49:50,131 29792 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo v16 community\odoo\thirdparty\wkhtmltopdf.exe 
+2023-12-14 22:49:51,475 29792 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-JVTP9S7:8069 
+2023-12-14 22:49:55,905 29716 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:55] "GET /web HTTP/1.1" 200 - 80 0.057 1.962
+2023-12-14 22:49:56,781 29716 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:56] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.005 0.021
+2023-12-14 22:49:57,246 29716 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:57] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.019 0.107
+2023-12-14 22:49:57,259 29716 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:57] "GET /websocket HTTP/1.1" 101 - 1 0.003 0.105
+2023-12-14 22:49:58,998 29716 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'Digizilla', defaulting to LGPL-3 
+2023-12-14 22:49:59,000 29716 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'Digizilla', defaulting to LGPL-3 
+2023-12-14 22:49:59,005 29716 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'trial', defaulting to LGPL-3 
+2023-12-14 22:49:59,006 29716 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'trial', defaulting to LGPL-3 
+2023-12-14 22:49:59,021 29716 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:59] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 10 0.007 1.230
+2023-12-14 22:49:59,039 29716 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:59] "POST /web/action/load HTTP/1.1" 200 - 12 0.021 2.264
+2023-12-14 22:49:59,408 29716 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:59] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.032 0.027
+2023-12-14 22:49:59,636 29716 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.026 0.010
+2023-12-14 22:49:59,745 29716 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:49:59] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.016
+2023-12-14 22:50:16,928 29716 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:50:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.024 0.020
+2023-12-14 22:50:17,217 29716 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:50:17] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.010
+2023-12-14 22:50:30,139 29716 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:50:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.048 0.012
+2023-12-14 22:50:30,339 29716 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 22:50:30] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.006 0.003
+2023-12-14 23:11:53,651 29792 INFO digizilla odoo.modules.loading: loading 1 modules... 
+2023-12-14 23:11:53,666 29792 INFO digizilla odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-12-14 23:11:53,692 29792 INFO digizilla odoo.modules.loading: loading 8 modules... 
+2023-12-14 23:11:53,940 29792 INFO digizilla odoo.modules.loading: 8 modules loaded in 0.25s, 0 queries (+0 extra) 
+2023-12-14 23:11:54,009 29792 INFO digizilla odoo.modules.loading: Modules loaded. 
+2023-12-14 23:11:54,014 29792 INFO digizilla odoo.modules.registry: Registry loaded in 0.553s 
+2023-12-14 23:11:54,017 29792 INFO digizilla odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-12-14 23:11:54,254 29792 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:11:54] "GET /websocket HTTP/1.1" 101 - 22 0.045 0.752
+2023-12-14 23:11:54,264 29792 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-12-14 23:17:01,501 29792 INFO ? odoo.service.server: Initiating shutdown 
+2023-12-14 23:17:01,501 29792 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-12-14 23:17:01,818 29792 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 4 connections  
+2023-12-14 23:17:05,577 26472 INFO ? odoo: Odoo version 16.0-20231214 
+2023-12-14 23:17:05,578 26472 INFO ? odoo: Using configuration file at D:\Odoo v16 community\odoo\server\odoo.conf 
+2023-12-14 23:17:05,578 26472 INFO ? odoo: addons paths: ['D:\\Odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\sessions\\addons\\16.0', 'd:\\odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\server\\custom_addons'] 
+2023-12-14 23:17:05,578 26472 INFO ? odoo: database: digizilla@localhost:5432 
+2023-12-14 23:17:06,102 26472 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo v16 community\odoo\thirdparty\wkhtmltopdf.exe 
+2023-12-14 23:17:07,503 26472 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-JVTP9S7:8069 
+2023-12-14 23:17:10,241 26472 INFO digizilla odoo.modules.loading: loading 1 modules... 
+2023-12-14 23:17:10,255 26472 INFO digizilla odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-12-14 23:17:10,285 26472 INFO digizilla odoo.modules.loading: loading 8 modules... 
+2023-12-14 23:17:10,456 26472 INFO digizilla odoo.modules.loading: 8 modules loaded in 0.17s, 0 queries (+0 extra) 
+2023-12-14 23:17:10,509 26472 INFO digizilla odoo.modules.loading: Modules loaded. 
+2023-12-14 23:17:10,513 26472 INFO digizilla odoo.modules.registry: Registry loaded in 0.360s 
+2023-12-14 23:17:10,516 26472 INFO digizilla odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-12-14 23:17:10,704 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:17:10] "GET /websocket HTTP/1.1" 101 - 22 0.038 0.515
+2023-12-14 23:17:10,711 26472 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-12-14 23:17:31,252 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:17:31] "GET /web HTTP/1.1" 200 - 80 0.068 2.055
+2023-12-14 23:17:32,818 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:17:32] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.006 0.017
+2023-12-14 23:17:33,248 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:17:33] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.020 0.019
+2023-12-14 23:17:33,280 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:17:33] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.011
+2023-12-14 23:17:34,919 26472 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'Digizilla', defaulting to LGPL-3 
+2023-12-14 23:17:34,926 26472 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'trial', defaulting to LGPL-3 
+2023-12-14 23:17:34,948 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:17:34] "POST /web/action/load HTTP/1.1" 200 - 12 0.014 2.141
+2023-12-14 23:17:35,015 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:17:35] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 10 0.009 0.428
+2023-12-14 23:17:35,317 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:17:35] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.029 0.028
+2023-12-14 23:17:35,709 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:17:35] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.034 0.037
+2023-12-14 23:17:35,719 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:17:35] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.071
+2023-12-14 23:17:43,675 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:17:43] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.029 0.025
+2023-12-14 23:17:43,947 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:17:43] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.011
+2023-12-14 23:17:49,048 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:17:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.055 0.018
+2023-12-14 23:17:49,234 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:17:49] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.004
+2023-12-14 23:21:36,127 11688 INFO ? odoo: Odoo version 16.0-20231214 
+2023-12-14 23:21:36,127 11688 INFO ? odoo: Using configuration file at D:\Odoo v16 community\odoo\server\odoo.conf 
+2023-12-14 23:21:36,127 11688 INFO ? odoo: addons paths: ['d:\\Odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\sessions\\addons\\16.0', 'd:\\odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\server\\custom_addons'] 
+2023-12-14 23:21:36,128 11688 INFO ? odoo: database: digizilla@localhost:5432 
+2023-12-14 23:21:36,708 11688 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo v16 community\odoo\thirdparty\wkhtmltopdf.exe 
+2023-12-14 23:21:38,819 11688 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-JVTP9S7:8069 
+2023-12-14 23:22:13,450 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:13] "GET /web HTTP/1.1" 200 - 9 0.007 0.011
+2023-12-14 23:22:14,811 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:14] "POST /web/action/load HTTP/1.1" 200 - 10 0.018 0.022
+2023-12-14 23:22:14,819 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:14] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.017 0.023
+2023-12-14 23:22:15,262 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:15] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.005 0.014
+2023-12-14 23:22:15,292 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:15] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.018 0.017
+2023-12-14 23:22:15,300 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:15] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.017
+2023-12-14 23:22:15,552 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:15] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.035 0.022
+2023-12-14 23:22:15,615 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:15] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.010
+2023-12-14 23:22:15,641 26472 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:15] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.005 0.014
+2023-12-14 23:22:17,244 26472 INFO ? odoo.service.server: Initiating shutdown 
+2023-12-14 23:22:17,244 26472 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-12-14 23:22:17,665 26472 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 5 connections  
+2023-12-14 23:22:19,592 11688 INFO digizilla odoo.modules.loading: loading 1 modules... 
+2023-12-14 23:22:19,604 11688 INFO digizilla odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-12-14 23:22:19,651 11688 INFO digizilla odoo.modules.loading: loading 8 modules... 
+2023-12-14 23:22:20,207 11688 INFO digizilla odoo.modules.loading: 8 modules loaded in 0.56s, 0 queries (+0 extra) 
+2023-12-14 23:22:20,272 11688 INFO digizilla odoo.modules.loading: Modules loaded. 
+2023-12-14 23:22:20,276 11688 INFO digizilla odoo.modules.registry: Registry loaded in 0.782s 
+2023-12-14 23:22:20,279 11688 INFO digizilla odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-12-14 23:22:20,509 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:20] "GET /websocket HTTP/1.1" 101 - 22 0.039 0.977
+2023-12-14 23:22:20,518 11688 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-12-14 23:22:21,387 23612 INFO ? odoo: Odoo version 16.0-20231214 
+2023-12-14 23:22:21,387 23612 INFO ? odoo: Using configuration file at D:\Odoo v16 community\odoo\server\odoo.conf 
+2023-12-14 23:22:21,387 23612 INFO ? odoo: addons paths: ['D:\\Odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\sessions\\addons\\16.0', 'd:\\odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\server\\custom_addons'] 
+2023-12-14 23:22:21,387 23612 INFO ? odoo: database: digizilla@localhost:5432 
+2023-12-14 23:22:21,655 23612 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo v16 community\odoo\thirdparty\wkhtmltopdf.exe 
+2023-12-14 23:22:22,903 23612 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-JVTP9S7:8069 
+2023-12-14 23:22:28,928 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:28] "GET /web HTTP/1.1" 200 - 80 0.048 1.984
+2023-12-14 23:22:29,838 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:29] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.005 0.018
+2023-12-14 23:22:30,244 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:30] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.021 0.025
+2023-12-14 23:22:30,271 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:30] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.017
+2023-12-14 23:22:34,278 11688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'Digizilla', defaulting to LGPL-3 
+2023-12-14 23:22:34,279 11688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'Digizilla', defaulting to LGPL-3 
+2023-12-14 23:22:34,290 11688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'trial', defaulting to LGPL-3 
+2023-12-14 23:22:34,291 11688 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'trial', defaulting to LGPL-3 
+2023-12-14 23:22:34,373 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:34] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 10 0.008 3.674
+2023-12-14 23:22:34,390 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:34] "POST /web/action/load HTTP/1.1" 200 - 12 0.022 4.554
+2023-12-14 23:22:34,758 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:34] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.032 0.027
+2023-12-14 23:22:34,985 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.025 0.010
+2023-12-14 23:22:35,082 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:35] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.007
+2023-12-14 23:22:42,456 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.030 0.018
+2023-12-14 23:22:42,740 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:42] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.011
+2023-12-14 23:22:49,177 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.052 0.014
+2023-12-14 23:22:49,372 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:49] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.007 0.005
+2023-12-14 23:22:51,009 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:51] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.026 0.016
+2023-12-14 23:22:51,292 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:51] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.008
+2023-12-14 23:22:59,991 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:22:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.075 0.025
+2023-12-14 23:23:04,516 11688 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:23:04] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.005 0.007
+2023-12-14 23:24:16,338 23612 INFO digizilla odoo.modules.loading: loading 1 modules... 
+2023-12-14 23:24:16,355 23612 INFO digizilla odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2023-12-14 23:24:16,382 23612 INFO digizilla odoo.modules.loading: loading 8 modules... 
+2023-12-14 23:24:16,605 23612 INFO digizilla odoo.modules.loading: 8 modules loaded in 0.22s, 0 queries (+0 extra) 
+2023-12-14 23:24:16,669 23612 INFO digizilla odoo.modules.loading: Modules loaded. 
+2023-12-14 23:24:16,673 23612 INFO digizilla odoo.modules.registry: Registry loaded in 0.474s 
+2023-12-14 23:24:16,675 23612 INFO digizilla odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-12-14 23:24:16,949 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:16] "GET /websocket HTTP/1.1" 101 - 22 0.048 0.705
+2023-12-14 23:24:16,959 23612 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-12-14 23:24:35,184 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:35] "GET /web HTTP/1.1" 200 - 80 0.059 1.910
+2023-12-14 23:24:36,387 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:36] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.004 0.016
+2023-12-14 23:24:36,914 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:36] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.028 0.111
+2023-12-14 23:24:36,929 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:36] "GET /websocket HTTP/1.1" 101 - 1 0.003 0.121
+2023-12-14 23:24:38,828 23612 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'Digizilla', defaulting to LGPL-3 
+2023-12-14 23:24:38,830 23612 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'Digizilla', defaulting to LGPL-3 
+2023-12-14 23:24:38,834 23612 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'trial', defaulting to LGPL-3 
+2023-12-14 23:24:38,837 23612 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'trial', defaulting to LGPL-3 
+2023-12-14 23:24:38,864 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:38] "POST /web/action/load HTTP/1.1" 200 - 12 0.013 2.487
+2023-12-14 23:24:38,865 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:38] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 10 0.018 1.519
+2023-12-14 23:24:39,240 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:39] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.030 0.034
+2023-12-14 23:24:39,464 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:39] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.024 0.013
+2023-12-14 23:24:39,572 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:39] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.007
+2023-12-14 23:24:44,914 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:44] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.024 0.019
+2023-12-14 23:24:45,203 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:45] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.010
+2023-12-14 23:24:50,153 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:50] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.045 0.013
+2023-12-14 23:24:50,355 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:50] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.004 0.005
+2023-12-14 23:24:52,236 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:52] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.024 0.027
+2023-12-14 23:24:52,522 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:24:52] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.009
+2023-12-14 23:25:08,753 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:25:08] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.046 0.015
+2023-12-14 23:25:08,953 23612 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:25:08] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.005 0.003
+2023-12-14 23:25:14,800 23612 INFO ? odoo.service.server: Initiating shutdown 
+2023-12-14 23:25:14,800 23612 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-12-14 23:25:15,832 23612 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 5 connections  
+2023-12-14 23:46:16,968 27820 INFO ? odoo: Odoo version 16.0-20231214 
+2023-12-14 23:46:16,968 27820 INFO ? odoo: Using configuration file at D:\Odoo v16 community\odoo\server\odoo.conf 
+2023-12-14 23:46:16,968 27820 INFO ? odoo: addons paths: ['d:\\Odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\sessions\\addons\\16.0', 'd:\\odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\server\\custom_addons'] 
+2023-12-14 23:46:16,969 27820 INFO ? odoo: database: digizilla@localhost:5432 
+2023-12-14 23:46:17,285 27820 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo v16 community\odoo\thirdparty\wkhtmltopdf.exe 
+2023-12-14 23:46:18,551 27820 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-JVTP9S7:8069 
+2023-12-14 23:46:56,003 27820 INFO digizilla odoo.modules.loading: loading 1 modules... 
+2023-12-14 23:46:56,013 27820 INFO digizilla odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-12-14 23:46:56,031 27820 INFO digizilla odoo.modules.loading: loading 8 modules... 
+2023-12-14 23:46:56,202 27820 INFO digizilla odoo.modules.loading: 8 modules loaded in 0.17s, 0 queries (+0 extra) 
+2023-12-14 23:46:56,245 27820 INFO digizilla odoo.modules.loading: Modules loaded. 
+2023-12-14 23:46:56,247 27820 INFO digizilla odoo.modules.registry: Registry loaded in 0.327s 
+2023-12-14 23:46:56,250 27820 INFO digizilla odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-12-14 23:46:56,390 27820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:46:56] "GET /websocket HTTP/1.1" 101 - 22 0.037 0.433
+2023-12-14 23:46:56,396 27820 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-12-14 23:46:57,504 26820 INFO ? odoo: Odoo version 16.0-20231214 
+2023-12-14 23:46:57,505 26820 INFO ? odoo: Using configuration file at D:\Odoo v16 community\odoo\server\odoo.conf 
+2023-12-14 23:46:57,505 26820 INFO ? odoo: addons paths: ['D:\\Odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\sessions\\addons\\16.0', 'd:\\odoo v16 community\\odoo\\server\\odoo\\addons', 'd:\\odoo v16 community\\odoo\\server\\custom_addons'] 
+2023-12-14 23:46:57,505 26820 INFO ? odoo: database: digizilla@localhost:5432 
+2023-12-14 23:46:57,851 26820 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo v16 community\odoo\thirdparty\wkhtmltopdf.exe 
+2023-12-14 23:46:59,245 26820 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-JVTP9S7:8069 
+2023-12-14 23:46:59,979 27820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:46:59] "GET /web HTTP/1.1" 200 - 80 0.076 2.068
+2023-12-14 23:47:01,117 27820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:47:01] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.004 0.016
+2023-12-14 23:47:01,642 27820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:47:01] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.023 0.126
+2023-12-14 23:47:01,655 27820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:47:01] "GET /websocket HTTP/1.1" 101 - 1 0.003 0.123
+2023-12-14 23:47:03,164 27820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:47:03] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 10 0.020 1.157
+2023-12-14 23:47:03,166 27820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:47:03] "POST /web/action/load HTTP/1.1" 200 - 12 0.009 2.063
+2023-12-14 23:47:03,534 27820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:47:03] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.025 0.032
+2023-12-14 23:47:03,763 27820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:47:03] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.023 0.012
+2023-12-14 23:47:03,862 27820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:47:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.006
+2023-12-14 23:47:06,214 27820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:47:06] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.019 0.022
+2023-12-14 23:47:06,497 27820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:47:06] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.013
+2023-12-14 23:47:14,104 27820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:47:14] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.040 0.018
+2023-12-14 23:47:14,306 27820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:47:14] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.006
+2023-12-14 23:48:47,748 26820 INFO digizilla odoo.modules.loading: loading 1 modules... 
+2023-12-14 23:48:47,761 26820 INFO digizilla odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-12-14 23:48:47,781 26820 INFO digizilla odoo.modules.loading: loading 8 modules... 
+2023-12-14 23:48:47,954 26820 INFO digizilla odoo.modules.loading: 8 modules loaded in 0.17s, 0 queries (+0 extra) 
+2023-12-14 23:48:48,013 26820 INFO digizilla odoo.modules.loading: Modules loaded. 
+2023-12-14 23:48:48,016 26820 INFO digizilla odoo.modules.registry: Registry loaded in 0.363s 
+2023-12-14 23:48:48,018 26820 INFO digizilla odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-12-14 23:48:48,229 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:48:48] "GET /websocket HTTP/1.1" 101 - 22 0.044 0.536
+2023-12-14 23:48:48,237 26820 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-12-14 23:49:01,050 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:01] "GET /web HTTP/1.1" 200 - 80 0.054 1.925
+2023-12-14 23:49:02,437 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:02] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.005 0.013
+2023-12-14 23:49:02,892 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:02] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.013
+2023-12-14 23:49:04,161 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:04] "POST /web/action/load HTTP/1.1" 200 - 13 0.014 1.730
+2023-12-14 23:49:38,540 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:38] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 10 0.012 0.073
+2023-12-14 23:49:38,540 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:38] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.048 0.065
+2023-12-14 23:49:38,570 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:38] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.019 0.092
+2023-12-14 23:49:38,691 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:38] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.006 0.006
+2023-12-14 23:49:38,880 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:38] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.007
+2023-12-14 23:49:38,892 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:38] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.003 0.013
+2023-12-14 23:49:38,899 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.032 0.020
+2023-12-14 23:49:42,583 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.028 0.019
+2023-12-14 23:49:42,857 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:42] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.007 0.008
+2023-12-14 23:49:47,641 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.042 0.015
+2023-12-14 23:49:47,848 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:47] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.006
+2023-12-14 23:49:52,417 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:52] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.026 0.017
+2023-12-14 23:49:52,694 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:49:52] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.008
+2023-12-14 23:50:00,831 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:50:00] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.056 0.016
+2023-12-14 23:50:01,019 26820 INFO digizilla werkzeug: 127.0.0.1 - - [14/Dec/2023 23:50:01] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.005 0.004
+2023-12-14 23:50:17,092 26820 INFO ? odoo.service.server: Initiating shutdown 
+2023-12-14 23:50:17,092 26820 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-12-14 23:50:18,120 26820 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
