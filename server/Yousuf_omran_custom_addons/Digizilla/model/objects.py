@@ -1,4 +1,4 @@
-from odoo import api, models, fields
+from odoo import models, fields
 
 class objects(models.Model):
     _name = 'digizilla.objects'

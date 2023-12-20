@@ -2,15 +2,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "yarab",
+            "name": "Yousuf", # your name
             "type": "python",
-            "python": "D:\\Odoo v16 community\\odoo\\python\\python.exe",
+            "python": "D:\\Documents\\GitHub\\Customers-Registration---Odoo-ERP\\python\\python.exe", # .\\Customers-Registration---Odoo-ERP\\python\\python.exe
             "request": "launch",
-            "program": "d:\\Odoo v16 community\\odoo\\server\\odoo-bin",
+            "program": "D:\\Documents\\GitHub\\Customers-Registration---Odoo-ERP\\server\\odoo-bin", # .\\Customers-Registration---Odoo-ERP\\server\\odoo-bin
             "console": "integratedTerminal",
-            "args": ["--config=D:\\Odoo v16 community\\odoo\\server\\odoo.conf ",
-                     "--database", "digizilla",
-                     "--update", "Digizilla"
+            "args": ["--config=D:\\Documents\\GitHub\\Customers-Registration---Odoo-ERP\\server\\odoo.conf", # .\\Customers-Registration---Odoo-ERP\\server\\odoo.conf
+                     "--database", "digizilla", # your database name
+                     "--update", "Digizilla", # update database changes
                     ]
         }
     ]
